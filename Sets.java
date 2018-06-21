@@ -22,7 +22,7 @@ public static void main(String[] args)
 	System.out.println("Elements in second set:");
 	System.out.print(s2);
 	System.out.print("\n");
-	/*for(Integer m:s1)
+	for(Integer m:s1)
 	{
 		if(s2.contains(m))
 			count++;
@@ -35,7 +35,7 @@ public static void main(String[] args)
 	}
 	else
 		System.out.println("Sets are not equal");
-	}*/
+	}
 	s1.retainAll(s2);
 	System.out.print("Common elements are:"+s1);
 }
